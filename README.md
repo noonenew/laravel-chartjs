@@ -6,12 +6,12 @@ using the [Chart.js](http://www.chartjs.org/) v2 library from Nick Downie.
 
 # Setup:
 ```
-composer require fx3costa/laravelchartjs
+composer require noonenew/laravelchartjs
 ```
 
 And add the Service Provider in your file config/app.php:
 ```php
-Fx3costa\LaravelChartJs\Providers\ChartjsServiceProvider::class
+Noonenew\LaravelChartJs\Providers\ChartjsServiceProvider::class
 ```
 
 Finally, for now, you must install and add to your layouts / templates the Chartjs library that can be easily
