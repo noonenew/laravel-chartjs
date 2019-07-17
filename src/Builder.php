@@ -155,6 +155,30 @@ class Builder
                 ->with('type', $chart['type'])
                 ->with('size', $chart['size']);
     }
+    
+    public function container()
+    {
+        $chart = $this->charts[$this->name];
+
+        return view('chart-template::chart-template-without-script')
+                ->with('element', $this->name)
+                ->with('size', $chart['size']);
+    }
+    
+    
+    public function script()
+    {
+        $chart = $this->charts[$this->name];
+
+        return view('chart-template::chart-template-script')
+            ->with('datasets', $chart['datasets'])
+            ->with('element', $this->name)
+            ->with('labels', $chart['labels'])
+            ->with('options', isset($chart['options']) ? $chart['options'] : '')
+            ->with('optionsRaw', isset($chart['optionsRaw']) ? $chart['optionsRaw'] : '')
+            ->with('type', $chart['type'])
+            ->with('size', $chart['size']);
+    }
 
     /**
      * @param $key
