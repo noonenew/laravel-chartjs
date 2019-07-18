@@ -1,5 +1,5 @@
 <canvas id="{!! $element !!}" width="{!! $size['width'] !!}" height="{!! $size['height'] !!}">
-<script>
+<script type="application/javascript">
     document.addEventListener("DOMContentLoaded", function(event) {
         (function() {
     		"use strict";
