@@ -1,8 +1,8 @@
 {
-    "name": "noonenew/laravelchartjs",
+    "name": "fx3costa/laravelchartjs",
     "description": "Simple package to facilitate and automate the use of charts in Laravel 5.x using Chartjs v2 library",
     "keywords": [
-      "chartjs","laravel5","chart","reports","graphics", "fx3costa", "noonenew"
+      "chartjs","laravel5","chart","reports","graphics", "fx3costa"
     ],
     "license": "MIT",
     "authors": [
@@ -11,13 +11,6 @@
             "email": "fx3costa@gmail.com"
         }
     ],
-    "repositories":
-    [
-            {
-                "type": "vcs",
-                "url": "https://github.com/noonenew/laravel-chartjs.git"
-            }
-    ],
     "require": {
       "php": ">=5.6.4",
       "illuminate/support": "~5.1"
@@ -25,14 +18,14 @@
 
     "autoload": {
       "psr-4": {
-        "Noonenew\\LaravelChartJs\\" : "src/"
+        "Fx3costa\\LaravelChartJs\\" : "src/"
       }
     },
     
     "extra": {
         "laravel": {
             "providers": [
-                "Noonenew\\LaravelChartJs\\Providers\\ChartjsServiceProvider"
+                "Fx3costa\\LaravelChartJs\\Providers\\ChartjsServiceProvider"
             ]
         }
     }
