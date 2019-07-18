@@ -1,10 +1,10 @@
-<?php namespace Fx3costa\LaravelChartJs\Providers;
+<?php namespace Noonenew\LaravelChartJs\Providers;
 
-use Fx3costa\LaravelChartJs\Builder;
-use Fx3costa\LaravelChartJs\ChartBar;
-use Fx3costa\LaravelChartJs\ChartLine;
-use Fx3costa\LaravelChartJs\ChartPieAndDoughnut;
-use Fx3costa\LaravelChartJs\ChartRadar;
+use Noonenew\LaravelChartJs\Builder;
+use Noonenew\LaravelChartJs\ChartBar;
+use Noonenew\LaravelChartJs\ChartLine;
+use Noonenew\LaravelChartJs\ChartPieAndDoughnut;
+use Noonenew\LaravelChartJs\ChartRadar;
 use Illuminate\Support\ServiceProvider;
 
 class ChartjsServiceProvider extends ServiceProvider
