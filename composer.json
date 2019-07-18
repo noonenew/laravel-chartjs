@@ -14,8 +14,8 @@
     "repositories":
     [
             {
-                "type": "vcs",
-                "url": "https://github.com/noonenew/laravel-chartjs"
+                "type": "git",
+                "url": "https://github.com/noonenew/laravel-chartjs.git"
             }
     ],
     "require": {
